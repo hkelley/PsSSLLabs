@@ -117,6 +117,3 @@ foreach($fqdn in $fqdns) {
     }
 }
 }
-
-Export-ModuleMember Invoke-SSLLabsRegister
-Export-ModuleMember Invoke-SSLLabsAnalyzeHost
