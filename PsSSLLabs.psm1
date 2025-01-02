@@ -7,9 +7,6 @@
 
 [System.Uri] $Urlbase = "https://api.ssllabs.com/api/v4"
 
-Invoke-RestMethod -Uri "$urlbase/info"
-
-
 Function Invoke-SSLLabsRegister {
 
 param (
